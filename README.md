@@ -17,3 +17,4 @@ In more technical terms it is all about Node.js, JavaScript, HTTP, WebSockets fo
 ![building the web of things](https://raw.githubusercontent.com/webofthings/webofthings.js/master/docs/building-the-web-of-things.png)
  
  [Get Building the Web of Things!](http://book.webofthings.io)
+
