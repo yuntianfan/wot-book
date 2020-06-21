@@ -8,6 +8,8 @@ sensor.watch(function (err, value) {
 
 function exit(err) {
 	if (err)	console.log('An error occured: ' + err);
+	var value = sensor.readSync();
+	console.log('sensor value is ' + value);
 	sensor.unexport();
 	console.log('Bye, bye!');
 	process.exit();
